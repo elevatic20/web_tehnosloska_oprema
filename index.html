@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Tehnološka oprema ČokoLand</title>
+  <link rel="shortcut icon" href="Images/favicon2.ico" type="image/x-icon">
+</head>
+
+<body>
+
+  <div id="header">
+    <div class="logo-header">
+      <div class="container header">
+        <img id="img1" src="Images/Logo.png" alt="Logo tehnoloske opreme" class="logo">
+        <img id="img2" src="Images/small_logo.png" alt="Logo tehnoloske opreme" class="logo">
+        <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+      </div>
+    </div>
+
+
+    <nav>
+      <ul id="sideMenu" class="navigation">
+        <li><a href="#popup1">Home</a></li>
+        <li><a href="#popup1">Products</a></li>
+        <li><a href="#popup1">Agencies</a></li>
+        <li><a href="#popup1">References</a></li>
+        <li><a href="#popup1">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#footer">Contact</a></li>
+
+        <i class="fa-solid fa-angle-right" onclick="closeMenu()"></i>
+      </ul>
+    </nav>
+
+    <video src="Images/video_header.mp4" autoplay loop preload>
+      Your browser does not support the video tag.
+    </video>
+
+  </div>
+
+
+  <div id="about" class="about">
+    <div class="container">
+      <h1>About us</h1>
+      <p>Technological equipment Čokoland deals with the distribution and sale of industrial equipment in the territory
+        of the European Union. The headquarters of the company is located in Prelog, Croatia. Technological equipment
+        Čokoland is part of the corporation Čokoland d.o.o. which has been operating successfully for over 12 years.
+        Together with our business partners and customers, we build a permanent relationship, providing them with
+        quality and safety. Our goal is to successfully implement complete business solutions and we are dedicated to
+        our partners to enable them to achieve excellence in their business activities.</p>
+    </div>
+  </div>
+
+  <div class="product">
+    <div class="container">
+      <h1>Product category</h1>
+      <div class="card-section">
+        <div class="card">
+          <img src="Images/hladnjak_prozirni.png" alt="Card Image 1">
+          <p><a href="#popup1">Refrigerators</a></p>
+        </div>
+        <div class="card">
+          <img src="Images/hladnjakpice_prozirni.png" alt="Card Image 2">
+          <p><a href="#popup1">Refrigerators for drinks</a></p>
+        </div>
+        <div class="card">
+          <img src="Images/ventilator_prozirni.png" alt="Card Image 3">
+          <p><a href="#popup1">Ventilation</a></p>
+        </div>
+
+        <!-- Second Row -->
+        <div class="card">
+          <img src="Images/pakirnica_prozirni.png" alt="Card Image 4">
+          <p><a href="#popup1">Machines for packing</a></p>
+        </div>
+        <div class="card">
+          <img src="Images/mikser_prozirni.png" alt="Card Image 5">
+          <p><a href="#popup1">Machines for bakery</a></p>
+        </div>
+        <div class="card">
+          <img src="Images/pasta_prozirni.png" alt="Card Image 6">
+          <p><a href="#popup1">Machines for pasta</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer" class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3">
+            <img src="Images/small_logo.png" alt="">
+          </div>
+          <div class="col-xl-3">
+            <h5><u><b>ČokoLand d.o.o.</b></u></h5>
+            <p>Jug II, 10</p>
+            <p>40 323 Prelog, Hrvatska</p>
+            <p><b>OIB:</b> 94207387415</p>
+
+            <h5><u><b>Logistics center Ludbreg</b></u></h5>
+            <p>Nikole Tesle 4</p>
+            <p>42 230 Ludbreg, Hrvatska</p>
+          </div>
+          <div class="col-xl-3">
+            <h5><u><b>Contact</b></u></h5>
+            <p>Fax:</p>
+            <ul>
+              <li>
+                <p>+ 00385 01 819 101</p>
+              </li>
+            </ul>
+
+            <p>Phone:</p>
+            <ul>
+              <li>
+                <p>+ 00385 99 161 1825</p>
+              </li>
+              <li>
+                <p>
+                  + 00385 99 161 1893
+                </p>
+              </li>
+            </ul>
+
+          </div>
+          <div class="col-xl-3">
+            <h5>
+              <u><b>Working time</b></u>
+            </h5>
+            <p>
+              Monday - Friday: 7 - 15h
+            </p>
+
+            <h5><u><b>E-mail</b></u></h5>
+            <p><a href="mailto:tehnosloskaoprema@cokoland.hr">tehnosloskaoprema@cokoland.hr</a></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <footer>
+      <p>© 2024 Čokoland.</p>
+    </footer>
+
+
+    <div id="popup1" class="overlay">
+      <div class="popup">
+        <h2>Notification!</h2>
+        <a class="close" href="#category">&times;</a>
+        <div class="content">
+          New website is under construction...
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- Side menu for mobile -->
+
+    <script>
+      var sidemenu = document.getElementById("sideMenu");
+
+      function openMenu() {
+        sidemenu.style.right = "0";
+      }
+
+      function closeMenu() {
+        sidemenu.style.right = "-200px"
+      }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
