@@ -21,6 +21,8 @@
 
 <body>
 
+
+  <!-- Logo picture + hidden hambuger(side menu) -->
   <div id="header">
     <div class="logo-header">
       <div class="container header">
@@ -30,7 +32,7 @@
       </div>
     </div>
 
-
+    <!-- Navigation -->
     <nav>
       <ul id="sideMenu" class="navigation">
         <li><a href="#popup1">Home</a></li>
@@ -45,13 +47,14 @@
       </ul>
     </nav>
 
+    <!-- Video autoplay loop -->
     <video src="Images/video_header.mp4" autoplay loop preload>
       Your browser does not support the video tag.
     </video>
 
   </div>
 
-
+  <!-- About section -->
   <div id="about" class="about">
     <div class="container">
       <h1>About us</h1>
@@ -64,6 +67,7 @@
     </div>
   </div>
 
+  <!-- Product category section -->
   <div class="product">
     <div class="container">
       <h1>Product category</h1>
@@ -81,7 +85,7 @@
           <p><a href="#popup1">Ventilation</a></p>
         </div>
 
-        <!-- Second Row -->
+        <!-- Second Row of product category -->
         <div class="card">
           <img src="Images/pakirnica_prozirni.png" alt="Card Image 4">
           <p><a href="#popup1">Machines for packing</a></p>
@@ -97,6 +101,7 @@
       </div>
     </div>
 
+    <!-- Footer section -->
     <div id="footer" class="footer">
       <div class="container">
         <div class="row">
@@ -151,11 +156,12 @@
       </div>
     </div>
 
+    <!-- Copyright section -->
     <footer>
       <p>© 2024 Čokoland.</p>
     </footer>
 
-
+    <!-- Pop up -->
     <div id="popup1" class="overlay">
       <div class="popup">
         <h2>Notification!</h2>
@@ -166,11 +172,7 @@
       </div>
     </div>
 
-
-
-
-    <!-- Side menu for mobile -->
-
+    <!-- Side menu javascript for mobile -->
     <script>
       var sidemenu = document.getElementById("sideMenu");
 
