@@ -36,6 +36,7 @@ html {
 
 .container.header {
     text-align: center;
+    max-width: 1080px;
 
 }
 
